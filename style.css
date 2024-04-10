@@ -1,0 +1,74 @@
+html{
+    background: black url("image.png") no-repeat center center fixed;
+    background-size: cover;
+  }
+  .logo {
+    width: 250px;
+    opacity: 0.8;
+    border: 50%;
+  }
+  .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  h1 {
+    color: yellow;
+    font-family: 'Varsity', sans-serif;
+    font-weight: bold;
+    text-align: center;
+  }
+  .combat {
+    float: left;
+    background-color: rgb(83, 43, 3);
+    opacity: 0.8;
+    width: 45%;
+    height: 350px;
+    border-radius: 25px;
+    margin: 10px;
+    margin-left: 40px;
+  }
+  .tile-pic {
+    width: 300px;
+    height: 200px;
+    float: left;
+    margin-right: 10px;
+  }
+  .text {
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    color: yellow;
+  }
+  .intro{
+    background-color: black;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 700px;
+    margin-top: 10px;
+    opacity: 0.8;
+  }
+  .head {
+    color: yellow;
+    text-align: center;
+  }
+  button {
+    align-self: center;
+    display: block;
+    margin: auto;
+    color: yellow;
+    background-color: black;
+    border: none;
+    border-radius: 25px;
+    height: 37px;
+    width: 200px;
+    font-weight: bold;
+  }
+  button:hover {
+    background-color: yellow;
+    color: black;
+    cursor: pointer;
+  }

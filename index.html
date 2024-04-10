@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fighter club</title>
+    <link href="https://fonts.cdnfonts.com/css/varsity-2" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto Slab', serif;
+            background: black url("back.png") no-repeat center center fixed;
+            background-size: cover;
+            color: yellow;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .title {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .logo {
+            width: 250px;
+            opacity: 0.8;
+            display: block;
+            margin: 0 auto;
+        }
+        .intro {
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 25px;
+            text-align: center;
+            padding: 20px;
+            margin-bottom: 30px;
+        }
+        .combat {
+            background-color: rgba(83, 43, 3, 0.8);
+            border-radius: 25px;
+            overflow: hidden;
+            margin-bottom: 20px;
+        }
+        .tile-pic {
+            width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            border-top-left-radius: 25px;
+            border-top-right-radius: 25px;
+        }
+        .combat-content {
+            padding: 20px;
+            text-align: center;
+        }
+        .head {
+            margin-top: 0;
+        }
+        .text {
+            margin-bottom: 20px;
+        }
+        .button {
+            color: yellow;
+            background-color: black;
+            border: none;
+            border-radius: 25px;
+            padding: 10px 20px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .button:hover {
+            background-color: yellow;
+            color: black;
+        }
+        .wel {
+            background-color: black;
+            opacity: 0.8;
+            display: flex;
+            justify-content: center;
+            margin: auto;
+            border-radius: 40px;
+            width: 600px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <img src="Logo1.png" alt="Fighter's Club" class="logo">
+            <div class="wel">
+            <h1>Welcome to the Fighter's Arena</h1>
+            </div>        
+        </div>
+        <div class="intro">
+            <p>Join the ultimate battle of combat sports. Choose your discipline and dominate!</p>
+        </div>
+        <div class="combat">
+            <img src="box.png" alt="Boxing" class="tile-pic">
+            <div class="combat-content">
+                <h2 class="head">BOXING</h2>
+                <p class="text">The art of boxing is a symphony of raw power, precision, and calculated aggression...</p>
+                <button class="button">REGISTER NOW</button>
+            </div>
+        </div>
+        <div class="combat">
+            <img src="image.png" alt="MMA" class="tile-pic">
+            <div class="combat-content">
+                <h2 class="head">MMA</h2>
+                <p class="text">Mixed Martial Arts (MMA) is a ruthless ballet of combat, where fighters harness a multitude of disciplines...</p>
+                <button class="button">REGISTER NOW</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
